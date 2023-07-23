@@ -9,15 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
     <!-- add tailween css and dege ui cdn  -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
-      type="text/css"
-    />
+      type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailween css castom color -->
     <script>
@@ -31,6 +29,10 @@
         },
       };
     </script>
+    <!-- font asum kit  -->
+    <script
+      src="https://kit.fontawesome.com/8f1729ba3e.js"
+      crossorigin="anonymous"></script>
     <!-- google font -->
     <style>
       .font_Manrope {
@@ -39,8 +41,96 @@
     </style>
   </head>
   <body class="font_Manrope">
-    <header></header>
-    <main></main>
+    <header class="container md:mx-auto">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good tea<br />
+              time at The<br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+          <div>
+            <img src="/images/banner.png" class="max-w-sm" />
+            <div
+              class="drop-shadow-2xl bg-white p-5 w-64 -mt-14 rounded-lg flex items-center gap-x-5">
+              <a class="text-yellow-400 text-4xl" href="">
+                <i class="fa-solid fa-star"></i
+              ></a>
+              <div>
+                <h3 class="text-3xl">5.0</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Our Featured Products -->
+      <section class="container md:mx-auto mt-28">
+        <h1 class="text-6xl text-center font-extrabold">
+          Our Featured Products
+        </h1>
+        <p class="text-center mt-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form,<br />
+          by injected humour, or randomised words which don't look even slightly
+          believable.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-12">
+          <!-- card 1  -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="/images/tea-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class=" text-center  text-2xl font-extrabold">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        
+          <!-- card 2  -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="/images/tea-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class=" text-center  text-2xl font-extrabold">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 3  -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="/images/tea-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body text-center">
+              <h2 class=" text-center  text-2xl font-extrabold">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img src="/images/tea-4.png" alt="Shoes" />
+            </figure>
+            <div class="card-body ">
+              <h2 class="text-2xl font-extrabold text-center ">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
